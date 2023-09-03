@@ -25,12 +25,9 @@ jobs:
     - name: Download Dependencies
       run: go get github.com/jdkato/prose/v2
 
-    - name: List directory for debug
-      run: ls -al .github/scripts/
-
     - name: Debug GitHub Event
       run: echo '${{ toJson(github.event) }}'
 
     - name: Check PR title for imperative mood
       if: github.event_name == 'pull_request'
-      run: go run .github/scripts/check-pr-title-imperative-mood.go "${{ github.event.pull_request.title }}"
+      run: go run src/main.go "${{ github.event.pull_request.title }}"
