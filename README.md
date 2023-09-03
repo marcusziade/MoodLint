@@ -4,9 +4,13 @@
 
 ---
 
-# MoodLint
+# 🌟 MoodLint 🌟
 
-MoodLint is a GitHub Action that automatically checks the mood and format of your Pull Request titles, ensuring they are written in an imperative mood. It also validates the title prefix against a predefined list.
+Tired of messy PR titles? Want to enforce a consistent style across your team? MoodLint is here to rescue your git workflow! With MoodLint, say goodbye to irrelevant and unprofessional PR titles. Our tool validates the mood, prefix, and overall structure of your PR titles, ensuring they're up to the mark.
+
+Let MoodLint bring peace and order to your PR chaos! Give it a star if you find it useful.
+
+---
 
 ## Table of Contents
 
@@ -18,14 +22,13 @@ MoodLint is a GitHub Action that automatically checks the mood and format of you
 6. [Contributing](#contributing)
 7. [License](#license)
 
-## Features
-
-- Checks Pull Request titles for imperative mood.
-- Validates title prefix (e.g., `feat`, `fix`, `chore`).
-- Skips mood check for specific prefixes like `fix`, `refactor`, and `regfix`.
+## 🔥 Features:
+- Validates PR title prefix for predefined types like `feat`, `fix`, `chore`, and more!
+- Checks if your PR title and description are phrased in the **imperative mood**.
+- Exits with a non-zero code for any validation failures, making it perfect for CI/CD pipelines.
 - Comprehensive reporting and examples to guide you in case of an error.
 
-## Installation
+## 🛠️ Installation
 
 To install MoodLint as a GitHub Action, add the following YAML configuration to your repository under `.github/workflows/moodlint.yml`.
 
@@ -48,11 +51,11 @@ jobs:
 
 Replace `your-username` with your GitHub username and adjust the version tag as needed.
 
-## Usage
+## 👨‍💻 Usage
 
 Once the GitHub Action is set up, it will automatically run whenever a Pull Request is opened or updated. If the title does not comply with the imperative mood or valid prefixes, the Action will fail and log an error message.
 
-## Configuration
+## ⚙️ Configuration
 
 By default, MoodLint validates PR titles against the following allowed prefixes:
 
@@ -64,7 +67,7 @@ By default, MoodLint validates PR titles against the following allowed prefixes:
 
 If you'd like to customize these prefixes, you can modify the `allowedPrefixes` variable inside the `src/validator/prefix_validator.go` file.
 
-## Running with Docker
+## 🐳 Running with Docker
 
 You can also run MoodLint as a Docker container. Here's how to do it:
 
@@ -80,7 +83,7 @@ You can also run MoodLint as a Docker container. Here's how to do it:
 
 This will execute MoodLint and check the given PR title.
 
-## Development
+## 📠 Development
 
 To work on the MoodLint project:
 
@@ -107,11 +110,11 @@ Build the project:
 go build
 ```
 
-## Contributing
+## 🤝 Contributing
 
 If you'd like to contribute, please fork the repository and create a pull request, or simply open an issue for bugs and feature requests.
 
-## License
+## 📝 License
 
 MIT
 
