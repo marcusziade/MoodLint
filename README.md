@@ -1,4 +1,4 @@
-[![Docker Image CI](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml)
+G[![Docker Image CI](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml)
 [![Go](https://github.com/marcusziade/MoodLint/actions/workflows/go.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/go.yml)
 [![Imperative PR Title Check](https://github.com/marcusziade/MoodLint/actions/workflows/check-pr-title-imperative.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/check-pr-title-imperative.yml)
 
@@ -117,7 +117,3 @@ If you'd like to contribute, please fork the repository and create a pull reques
 ## 📝 License
 
 MIT
-
----
-
-Feel free to modify it to better match your project details. This should give anyone landing on your GitHub repository a good understanding of what MoodLint does and how to use it.
