@@ -1,0 +1,18 @@
+# Ignore the test files
+*_test.go
+
+# Ignore Git and other VCS files
+.git/
+.gitignore
+
+# Ignore all markdown files
+*.md
+
+# Ignore all license files
+LICENSE
+
+# Ignore all yaml files
+*.yml
+
+# Ignore build files
+bin/
