@@ -1,4 +1,4 @@
-G[![Docker Image CI](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/docker-image.yml)
 [![Go](https://github.com/marcusziade/MoodLint/actions/workflows/go.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/go.yml)
 [![Imperative PR Title Check](https://github.com/marcusziade/MoodLint/actions/workflows/check-pr-title-imperative.yml/badge.svg)](https://github.com/marcusziade/MoodLint/actions/workflows/check-pr-title-imperative.yml)
 
