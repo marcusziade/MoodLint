@@ -3,6 +3,8 @@ package main
 import (
 	"MoodLint/src/utils"
 	"MoodLint/src/validator"
+	"fmt"
+	"os"
 )
 
 func main() {
@@ -10,6 +12,10 @@ func main() {
 	cleanedTitle := utils.RemoveBrackets(title)
 	prefix, description := utils.SplitTitle(cleanedTitle)
 
-	validator.ValidatePrefix(prefix)
+	_, err := validator.ValidatePrefix(prefix)
+	if err != "" {
+		fmt.Println(err)
+		os.Exit(1)
+	}
 	validator.ValidateImperativeMood(prefix, description)
 }
