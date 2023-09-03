@@ -1,0 +1,21 @@
+name: 'MoodLint'
+description: 'Validates the mood of your PR description and its prefix'
+branding:
+  icon: 'check-square'
+  color: 'green'
+
+inputs:
+  prefix:
+    description: 'The prefix of the PR'
+    required: true
+  description:
+    description: 'The description of the PR'
+    required: true
+
+outputs:
+  result:
+    description: 'Validation result'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
