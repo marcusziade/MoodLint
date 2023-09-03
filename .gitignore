@@ -1,0 +1,17 @@
+# Binaries, executables
+bin/
+pkg/
+*.out
+*.exe
+*.dll
+*.so
+
+# Dependency directories
+vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Test coverage reports
+coverage.out
